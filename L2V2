@@ -1,0 +1,71 @@
+#ctrl
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/yLJh9O3.png')
+image = img_as_float(image)
+print(np.mean(image))
+
+#L 1650a
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/11Wm3Pt.png')
+image = img_as_float(image)
+print(np.mean(image))
+
+#L 1650b
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/eWiUmu2.png')
+image = img_as_float(image)
+print(np.mean(image))
+
+#A1
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/XHHYTW6.png')
+image = img_as_float(image)
+print(np.mean(image))
+
+#A2
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/9QVVPOf.png')
+image = img_as_float(image)
+print(np.mean(image))
+
+#A3
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/u4ypyjA.png')
+image = img_as_float(image)
+print(np.mean(image))
+
+#B1
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/YGVwIl1.jpeg')
+image = img_as_float(image)
+print(np.mean(image))
+
+#B2
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/PPAEypi.png')
+image = img_as_float(image)
+print(np.mean(image))
+
+#B3
+from skimage import io, img_as_float
+import numpy as np
+
+image = io.imread('https://i.imgur.com/McUpOFB.png')
+image = img_as_float(image)
+print(np.mean(image))
