@@ -34,7 +34,7 @@ print(np.mean(image))
 from skimage import io, img_as_float
 import numpy as np
 
-image = io.imread('https://i.imgur.com/9QVVPOf.png')
+image = io.imread('https://i.imgur.com/3i8bwRJ.png')
 image = img_as_float(image)
 print(np.mean(image))
 
